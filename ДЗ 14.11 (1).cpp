@@ -20,7 +20,7 @@ int main() {
                 counter++;
             }
         }
-        often.push_back(counter); // i-й элемент массива - то, сколько раз встречается i-й символ строки в самой строке 
+        often.push_back(counter); //сколько раз встречается i-й символ строки в самой строке 
     }
     int max_count = 0, max_index = 0;
     for (int i = 0; i < often.size(); i++) {
