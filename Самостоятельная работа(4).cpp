@@ -3,7 +3,10 @@ using namespace std;
 main()
 {
 	int x[1001], i, N, A, B, C, D, y;
-	cin >> N >> A >> B >> C >> D;
+	cout << "N" << endl;
+	cin >> N;
+	cout << ABCD << endl;
+	cin>> A >> B >> C >> D;
 
 	for (i = 1; i <= N; i++)
 		x[i] = i;
